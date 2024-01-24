@@ -1,6 +1,6 @@
 # ImanolAitor_EXT_EntregaFinal
 
-Este proyecto ha sido completado por Imanol Anda y Aitor Salazar. La programación del EK-RA4M1 se encuentra en los archivos .c y .h, así como en el archivo comprimido. La programación relacionada con la Raspberry Pi se encuentra en el archivo raspberry.py. Además, la programación del cliente MQTT se halla en el archivo refresh.py. Ademas, del diagrama de flujo sobre la implentación del proyecto.
+Este proyecto ha sido completado por Imanol Anda y Aitor Salazar. La programación del EK-RA4M1 se encuentra en los archivos .c y .h, así como en el archivo comprimido. La programación relacionada con la Raspberry Pi se encuentra en el archivo raspberry.py. Además, la programación del cliente MQTT se halla en el archivo refresh.py. Ademas, del diagrama de flujo sobre la implentación del proyecto. La programación del proyecto entero se encuentra en el programa.zip.
 
 ## Desarrollo
 Para activar nuestro sistema de seguridad, se debe presionar un pulsador. Al hacerlo, el display LCD mostrará 'SYSTEM ON' y el sistema permanecerá activo mientras la EK esté encendida. El sistema leerá constantemente la velocidad del vehículo, que simulamos a través de un potenciómetro conectado al módulo ADC. Utilizamos un filtro de mediana móvil para filtrar valores anómalos.
